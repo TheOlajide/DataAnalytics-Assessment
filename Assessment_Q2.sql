@@ -29,7 +29,8 @@ FROM
 )
 SELECT
  avg_transactions_per_month,
- COUNT(*) AS customer_count , frequency_category
+ COUNT(*) AS customer_count,
+ frequency_category
 FROM
  table3
 GROUP BY
