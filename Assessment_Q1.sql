@@ -1,3 +1,4 @@
+/* question 1*/
 SELECT
  plans.owner_id,
  CONCAT(first_name,' ', last_name) AS name,
