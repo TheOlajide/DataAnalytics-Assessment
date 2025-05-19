@@ -2,7 +2,8 @@
 WITH table1 AS (
 SELECT
  users.id AS customer,
- EXTRACT(MONTH FROM transaction_date) AS month, COUNT(*) AS total_txn
+ EXTRACT(MONTH FROM transaction_date) AS month,
+ COUNT(*) AS total_txn
 FROM
  users_customuser AS users
 JOIN
